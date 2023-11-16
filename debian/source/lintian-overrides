@@ -1,0 +1,2 @@
+python-colorlog source: debian-watch-does-not-check-openpgp-signature
+python-colorlog source: prefer-uscan-symlink filenamemangle *
