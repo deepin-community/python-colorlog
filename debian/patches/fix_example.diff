@@ -1,0 +1,14 @@
+Description: fix doc/example.py
+ The shebang in doc/example.py uses an unversioned python command
+Author: Philipp Huebner <debalance@debian.org>
+
+Index: python-colorlog/doc/example.py
+===================================================================
+--- python-colorlog.orig/doc/example.py
++++ python-colorlog/doc/example.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python3
+ """python-colorlog example."""
+
+ import logging

@@ -1,5 +1,161 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-colorlog (6.7.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 6.7.0
+  * Updated years in debian/copyright
+  * Updated lintian overrides
+  * Updated Standards-Version: 4.6.1 (no changes needed)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Philipp Huebner <debalance@debian.org>  Fri, 04 Nov 2022 12:22:15 +0100
+
+python-colorlog (6.6.0-1) unstable; urgency=medium
+
+  * New upstream version 6.6.0
+  * Update years in debian/copyright
+  * Updated Standards-Version: 4.6.0 (no changes needed)
+
+ -- Philipp Huebner <debalance@debian.org>  Tue, 28 Dec 2021 09:44:27 +0100
+
+python-colorlog (6.4.1-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove overrides for lintian tags that are no longer supported.
+
+  [ Philipp Huebner ]
+  * New upstream version 6.4.1
+
+ -- Philipp Huebner <debalance@debian.org>  Tue, 07 Sep 2021 08:21:46 +0200
+
+python-colorlog (4.7.2-1) unstable; urgency=medium
+
+  * New upstream version 4.7.2
+
+ -- Philipp Huebner <debalance@debian.org>  Sat, 23 Jan 2021 10:56:30 +0100
+
+python-colorlog (4.6.2-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Philipp Huebner ]
+  * New upstream version 4.6.2
+  * Updated Standards-Version: 4.5.1 (no changes needed)
+  * Updated version of debian/watch: 4
+  * Dropped debian/python3-colorlog.lintian-overrides
+  * Added patch to fix unversioned python shebang in example.py
+
+ -- Philipp Huebner <debalance@debian.org>  Mon, 28 Dec 2020 15:52:21 +0100
+
+python-colorlog (4.2.1-1) unstable; urgency=medium
+
+  * New upstream version 4.2.1
+  * Switched to debhelper compat level 12
+
+ -- Philipp Huebner <debalance@debian.org>  Mon, 27 Jul 2020 10:11:18 +0200
+
+python-colorlog (4.1.0-2) unstable; urgency=medium
+
+  * Moved maintainership to Debian Python Modules Team
+  * Updated Vcs-* fields
+
+ -- Philipp Huebner <debalance@debian.org>  Fri, 28 Feb 2020 14:06:41 +0100
+
+python-colorlog (4.1.0-1) unstable; urgency=medium
+
+  * New upstream version 4.1.0
+  * Updated Standards-Version: 4.5.0 (no changes needed)
+  * Rules-Requires-Root: no
+
+ -- Philipp Huebner <debalance@debian.org>  Sun, 16 Feb 2020 00:31:26 +0100
+
+python-colorlog (4.0.1-2) unstable; urgency=medium
+
+  * Dropped python2 support (Closes: #937656)
+  * Updated Standards-Version: 4.4.1 (no changes needed)
+
+ -- Philipp Huebner <debalance@debian.org>  Sun, 20 Oct 2019 19:32:10 +0200
+
+python-colorlog (4.0.1-1) unstable; urgency=medium
+
+  * New upstream version 4.0.1
+  * Updated years in debian/copyright
+  * Updated Standards-Version: 4.3.0 (no changes needed)
+  * Switched to debhelper compat level 12
+
+ -- Philipp Huebner <debalance@debian.org>  Thu, 03 Jan 2019 21:40:57 +0100
+
+python-colorlog (3.1.4-1) unstable; urgency=medium
+
+  * New upstream version 3.1.4
+  * Fixed a long description in debian/control
+  * Updated Standards-Version: 4.1.4 (no changes needed)
+  * Updated debian/copyright
+  * Switched to debhelper 11
+
+ -- Philipp Huebner <debalance@debian.org>  Wed, 09 May 2018 14:17:21 +0200
+
+python-colorlog (3.1.2-1) unstable; urgency=medium
+
+  * New upstream version 3.1.2
+  * Updated Vcs-* fields in debian/control
+  * Updated Standards-Version: 4.1.3 (no changes needed)
+  * Updated years in debian/copyright
+
+ -- Philipp Huebner <debalance@debian.org>  Sun, 28 Jan 2018 18:11:01 +0100
+
+python-colorlog (3.1.0-1) unstable; urgency=medium
+
+  * New upstream version 3.1.0
+
+ -- Philipp Huebner <debalance@debian.org>  Thu, 21 Sep 2017 09:58:46 +0200
+
+python-colorlog (2.10.0-2) unstable; urgency=medium
+
+  * Fix python3 dependencies (Closes: #867422)
+  * Updated Standards-Version: 3.9.8 (no changes needed)
+  * Updated years in debian/copyright
+
+ -- Philipp Huebner <debalance@debian.org>  Fri, 07 Jul 2017 07:10:15 +0200
+
+python-colorlog (2.10.0-1) unstable; urgency=medium
+
+  * New upstream version 2.10.0
+
+ -- Philipp Huebner <debalance@debian.org>  Wed, 23 Nov 2016 22:49:49 +0100
+
+python-colorlog (2.7.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.7.0
+
+ -- Philipp Huebner <debalance@debian.org>  Sun, 29 May 2016 20:25:17 +0200
+
+python-colorlog (2.6.3-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.6.3
+  * Updated Standards-Version: 3.9.8 (no changes needed)
+  * Updated years in debian/copyright
+  * Updated Vcs-* fields in debian/control
+  * Install docs and examples correctly
+
+ -- Philipp Huebner <debalance@debian.org>  Sun, 01 May 2016 11:40:24 +0200
+
+python-colorlog (2.6.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Correct debian/watch
+  * Add Vcs links to debian/control
+  * Update Standards-Version: 3.9.6 (no changes needed)
+
+ -- Philipp Huebner <debalance@debian.org>  Sun, 26 Apr 2015 13:28:31 +0200
+
+python-colorlog (2.4.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #760356)
+
+ -- Philipp Huebner <debalance@debian.org>  Thu, 04 Sep 2014 11:00:00 +0200
